@@ -26,7 +26,6 @@ public class Selection extends Operator{
 	@Override
 	public Tuple next(){
 		//Delete the lines below and add your code here
-		System.out.println("selection");
 		if(whereTablePredicate==""){
 			return child.next();
 		}
